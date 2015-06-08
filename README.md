@@ -11,8 +11,8 @@ The example uses [Google Maps elevation API](https://developers.google.com/maps/
 /> python example1.py
 ```
 ####Framework Requirements
-* Throttling - framework will provide a built-in way to handle request limits rather than rely on the web service itself
- * Single web service may have several throttles (total requests, request rate, etc.)
+* Throttling - framework will provide a way to define request limits rather than rely on the web service to deny requests
+ * A web service may have several throttles (total requests, request rate, etc.)
  * Framework will provide mechanism to override built-in throttles and make external service request anyway
 * Authentication - framework will provide a way for the developer to login (if necessary) to access each web service
 * Pagination - web services that require more than one API call to retrieve the full data set will be behave the same way using the framework's API
